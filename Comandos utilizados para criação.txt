@@ -1,0 +1,22 @@
+
+// Iniciando Package JSON com perguntas respondidas com default yes
+01 - npm init -y 
+
+// Baixando Dependencias - checar depois no package.json
+02 - npm i --save -E body-parser@1.15.2 express@4.14.0 mongoose@4.7.0 node-restful@0.2.5 pm2@2.1.5
+	npm -> Node Package Manager.
+	i -> comando para instalar.
+	--save -> Salvar as dependencias no arquivo.
+	-E -> Flag usada para instalar a versão exata.
+	body-parser -> Responsável pela conversão do body da requisicao.
+	express -> framework de backend.
+	mongoose -> biblioteca responsável por acessar o banco de dados.
+	node-restful -> para simplificar a construção da API (Crud) 
+	pm2 -> Inicializa aplicação e monitora aplicacao, quando da erro, ele start novamente // Launcher para aplicação
+
+// Dependencias apenas para desenvolvimento  - checar no package.json
+03 - npm i --save-dev -E nodemon@1.11.0
+	nodemon -> Launcher para dev
+	
+
+  
